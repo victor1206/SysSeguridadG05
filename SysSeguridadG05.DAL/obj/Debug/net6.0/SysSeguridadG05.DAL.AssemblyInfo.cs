@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysSeguridadG05.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db0744348edd3497bbcb44f95257076c4b96215c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysSeguridadG05.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysSeguridadG05.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
