@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SysSeguridadG05.UIMVC.props" />
+</Project>

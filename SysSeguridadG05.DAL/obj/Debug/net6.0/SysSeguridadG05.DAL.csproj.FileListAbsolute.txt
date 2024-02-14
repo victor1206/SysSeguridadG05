@@ -1,0 +1,15 @@
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.DAL.deps.json
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.DAL.dll
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.DAL.pdb
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.AssemblyInfo.cs
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.dll
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\refint\SysSeguridadG05.DAL.dll
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.pdb
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\ref\SysSeguridadG05.DAL.dll
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.EN.dll
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.EN.pdb
+C:\Users\victo\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.csproj.CopyComplete
