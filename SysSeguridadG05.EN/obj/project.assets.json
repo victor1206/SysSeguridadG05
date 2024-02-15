@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\Proyectos\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
       "projectName": "SysSeguridadG05.EN",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\Proyectos\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
-      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\Proyectos\\SysSeguridadG05.EN\\obj\\",
+      "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
