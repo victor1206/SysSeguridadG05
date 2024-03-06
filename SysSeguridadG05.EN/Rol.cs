@@ -21,7 +21,6 @@ namespace SysSeguridadG05.EN
         public List<Usuario> Usuarios { get; set; }
         [NotMapped]
         public int Top_Aux { get; set; }
-        public string identificacion { get; set; }
 
     }
 }

@@ -31,12 +31,12 @@ namespace SysSeguridadG05.BL
             return await RolDAL.ObtenerPorIdAsync(pRol);
         }
 
-        public static async Task<List<Rol>> ObtenerTodosAsync()
+        public async Task<List<Rol>> ObtenerTodosAsync()
         {
             return await RolDAL.ObtenerTodosAsync();
         }
 
-        public static async Task<List<Rol>> BuscarAsync(Rol pRol)
+        public async Task<List<Rol>> BuscarAsync(Rol pRol)
         {
             return await RolDAL.BuscarAsync(pRol);
         }
