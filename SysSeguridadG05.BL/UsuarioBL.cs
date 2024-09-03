@@ -50,7 +50,7 @@ namespace SysSeguridadG05.BL
             return await UsuarioDAL.LoginAsync(pUsuario);
         }
 
-        public static async Task<int> CambiarPasswordAsync(Usuario pUsuario,
+        public async Task<int> CambiarPasswordAsync(Usuario pUsuario,
            string pPasswordAnt)
         {
             return await UsuarioDAL.CambiarPasswordAsync(pUsuario, pPasswordAnt);

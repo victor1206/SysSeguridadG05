@@ -19,6 +19,7 @@ namespace SysSeguridadG05.EN
         public int IdRol { get; set; }
         [Required(ErrorMessage = "Nombre es Obligatorio")]
         [StringLength(100, ErrorMessage = "Maximo 100 Caracteres")]
+        [Display(Name = "Nombre Usuario")]
         public string Nombre { get; set; }
         [Required(ErrorMessage = "Apellido es Obligatorio")]
         [StringLength(100, ErrorMessage = "Maximo 100 Caracteres")]
