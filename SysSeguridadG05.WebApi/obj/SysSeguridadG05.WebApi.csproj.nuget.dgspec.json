@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.WebApi\\SysSeguridadG05.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\SysSeguridadG05.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\SysSeguridadG05.BL.csproj",
+        "projectName": "SysSeguridadG05.BL",
+        "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\SysSeguridadG05.BL.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\SysSeguridadG05.DAL.csproj": {
+                "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\SysSeguridadG05.DAL.csproj"
+              },
+              "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj": {
+                "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\SysSeguridadG05.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\SysSeguridadG05.DAL.csproj",
+        "projectName": "SysSeguridadG05.DAL",
+        "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\SysSeguridadG05.DAL.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj": {
+                "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
+        "projectName": "SysSeguridadG05.EN",
+        "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.WebApi\\SysSeguridadG05.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.WebApi\\SysSeguridadG05.WebApi.csproj",
+        "projectName": "SysSeguridadG05.WebApi",
+        "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.WebApi\\SysSeguridadG05.WebApi.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\SysSeguridadG05.BL.csproj": {
+                "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.BL\\SysSeguridadG05.BL.csproj"
+              },
+              "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj": {
+                "projectPath": "C:\\Users\\victo\\source\\repos\\SysSeguridadG05\\SysSeguridadG05.EN\\SysSeguridadG05.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
