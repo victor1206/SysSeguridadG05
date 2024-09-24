@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SysSeguridadG05.BL;
+using SysSeguridadG05.DAL;
 using SysSeguridadG05.EN;
 using System.Text.Json;
 
@@ -16,7 +17,14 @@ namespace SysSeguridadG05.WebApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<Usuario>> Get()
         {
-            return await usuarioBl.ObtenerTodosAsync();
+            Usuario usuario = new Usuario();
+            var usuarios = await usuarioBl.BuscarIncluirRolAsync(usuario);
+            foreach (var item in usuarios)
+            {
+                item.Rol.Usuarios = new List<Usuario>();
+            }
+
+            return usuarios;
         }
 
         // GET api/<UsuarioController>/5
