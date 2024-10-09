@@ -143,12 +143,16 @@ namespace SysSeguridadG05.DAL
 
         public static async Task<List<Usuario>> ObtenerTodosAsync()
         {
+            Usuario usuario = new Usuario();
             List<Usuario> usuarios = new List<Usuario>();
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    usuarios = await dbContexto.Usuario.ToListAsync();
+                    //usuarios = await dbContexto.Usuario.ToListAsync();
+                    var select = dbContexto.Usuario.AsQueryable();
+                    select = QuerySelect(select, usuario);
+                    usuarios = await select.ToListAsync();
                 }
             }
             catch (Exception ex)

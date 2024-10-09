@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysSeguridadG05.BL", "SysSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysSeguridadG05.UIMVC", "SysSeguridadG05.UIMVC\SysSeguridadG05.UIMVC.csproj", "{A6CCB51B-08D7-489A-BA3D-14AB5A6C3366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysSeguridadG05.WebApi", "SysSeguridadG05.WebApi\SysSeguridadG05.WebApi.csproj", "{4EAE6E9B-8A5D-40B6-BC46-8EC109EBC87F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysSeguridadG05.WebApi", "SysSeguridadG05.WebApi\SysSeguridadG05.WebApi.csproj", "{4EAE6E9B-8A5D-40B6-BC46-8EC109EBC87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysSeguridadG05.PruebasUnitarias", "SysSeguridadG05.PruebasUnitarias\SysSeguridadG05.PruebasUnitarias.csproj", "{688DA808-6196-49D4-9A5B-32981862F026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4EAE6E9B-8A5D-40B6-BC46-8EC109EBC87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EAE6E9B-8A5D-40B6-BC46-8EC109EBC87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EAE6E9B-8A5D-40B6-BC46-8EC109EBC87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688DA808-6196-49D4-9A5B-32981862F026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688DA808-6196-49D4-9A5B-32981862F026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688DA808-6196-49D4-9A5B-32981862F026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688DA808-6196-49D4-9A5B-32981862F026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

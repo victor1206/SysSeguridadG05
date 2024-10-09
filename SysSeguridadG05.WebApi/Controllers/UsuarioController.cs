@@ -18,11 +18,11 @@ namespace SysSeguridadG05.WebApi.Controllers
         public async Task<IEnumerable<Usuario>> Get()
         {
             Usuario usuario = new Usuario();
-            var usuarios = await usuarioBl.BuscarIncluirRolAsync(usuario);
-            foreach (var item in usuarios)
+            var usuarios = await usuarioBl.ObtenerTodosAsync();
+            /*foreach (var item in usuarios)
             {
                 item.Rol.Usuarios = new List<Usuario>();
-            }
+            }*/
 
             return usuarios;
         }
