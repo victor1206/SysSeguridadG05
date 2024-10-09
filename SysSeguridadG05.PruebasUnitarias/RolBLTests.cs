@@ -13,14 +13,14 @@ namespace SysSeguridadG05.BL.Tests
     [TestClass()]
     public class RolBLTests
     {
-        private static Rol rolinicial = new Rol { Id = 22};//Rol existente 
+        private static Rol rolinicial = new Rol { Id = 24};//Rol existente 
         private RolBL rolBl = new RolBL();
 
         [TestMethod()]
         public async Task T1CrearAsyncTest()
         {
             var rol = new Rol();
-            rol.Nombre = "Admin 3";
+            rol.Nombre = "Admin 23";
             int result = await rolBl.CrearAsync(rol);
             Assert.AreNotEqual(0, result);
         }
@@ -36,27 +36,38 @@ namespace SysSeguridadG05.BL.Tests
         }
 
         [TestMethod()]
-        public void DeleteAsyncTest()
+        public async Task T3ObtenerPorIdAsyncTest()
         {
-            Assert.Fail();
+            var rol = new Rol();
+            rol.Id = rolinicial.Id;
+            var result = await rolBl.ObtenerPorIdAsync(rol);
+            Assert.AreEqual(rol.Id, result.Id);
         }
 
         [TestMethod()]
-        public void ObtenerPorIdAsyncTest()
+        public async Task T4ObtenerTodosAsyncTest()
         {
-            Assert.Fail();
+            var result = await rolBl.ObtenerTodosAsync();
+            Assert.AreNotEqual(0, result.Count);
         }
 
         [TestMethod()]
-        public void ObtenerTodosAsyncTest()
+        public async Task T5BuscarAsyncTest()
         {
-            Assert.Fail();
+            var rol = new Rol();
+            rol.Nombre = "Ad";
+            rol.Top_Aux = 10;
+            var resultRoles = await rolBl.BuscarAsync(rol);
+            Assert.AreNotEqual(0, resultRoles.Count);
         }
 
         [TestMethod()]
-        public void BuscarAsyncTest()
+        public async Task T6DeleteAsyncTest()
         {
-            Assert.Fail();
+            var rol = new Rol();
+            rol.Id = rolinicial.Id;
+            var result = await rolBl.DeleteAsync(rol);
+            Assert.AreNotEqual(0, result);
         }
     }
 }
